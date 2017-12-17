@@ -1,0 +1,5 @@
+1.打开文件
+f = open("filename","r",encoding="utf-8")
+filename是文件名，"r"表示用读取的方式打开，encoding表示编码方式
+2.将文件赋值给一个字符串变量
+file = f.read()
